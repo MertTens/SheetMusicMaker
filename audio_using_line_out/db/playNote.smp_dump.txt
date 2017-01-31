@@ -1,0 +1,20 @@
+
+State Machine - |playNote|current_state
+Name current_state.COUNT current_state.LOAD_COUNT current_state.INCRIMENT_NOTE current_state.NOTE_READ current_state.CLEAR_RAM_SLOT current_state.CLEAR_RAM current_state.WAIT current_state.STORE current_state.DURATION_DETECT current_state.NOTE_PLAY current_state.RESET 
+current_state.RESET 0 0 0 0 0 0 0 0 0 0 0 
+current_state.NOTE_PLAY 0 0 0 0 0 0 0 0 0 1 1 
+current_state.DURATION_DETECT 0 0 0 0 0 0 0 0 1 0 1 
+current_state.STORE 0 0 0 0 0 0 0 1 0 0 1 
+current_state.WAIT 0 0 0 0 0 0 1 0 0 0 1 
+current_state.CLEAR_RAM 0 0 0 0 0 1 0 0 0 0 1 
+current_state.CLEAR_RAM_SLOT 0 0 0 0 1 0 0 0 0 0 1 
+current_state.NOTE_READ 0 0 0 1 0 0 0 0 0 0 1 
+current_state.INCRIMENT_NOTE 0 0 1 0 0 0 0 0 0 0 1 
+current_state.LOAD_COUNT 0 1 0 0 0 0 0 0 0 0 1 
+current_state.COUNT 1 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |playNote|avconf:avc|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 

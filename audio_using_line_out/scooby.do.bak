@@ -1,0 +1,55 @@
+vlib work
+vlog noteRead.v ram64x7.v
+vsim -L altera_mf_ver noteRead
+log {/*}
+add wave {/*}
+
+
+#we want output to be ax^2 +bx +c
+force {CLOCK_50} 0 -repeat 2ns
+run 1ns
+force {CLOCK_50} 1 -repeat 2ns
+
+force {SW[0]} 0
+force {SW[1]} 0
+force {SW[2]} 0
+force {SW[3]} 0
+
+
+force {KEY[0]} 0
+run 10 ns
+
+force {SW[0]} 0
+force {SW[1]} 0
+force {SW[2]} 0
+force {SW[3]} 1
+
+
+run 100 ns
+
+force {SW[0]} 1
+force {SW[1]} 0
+force {SW[2]} 0
+force {SW[3]} 0
+
+
+force {KEY[0]} 0
+run 50 ns
+
+force {SW[0]} 0
+force {SW[1]} 1
+force {SW[2]} 0
+force {SW[3]} 1
+
+
+run 50 ns
+force {SW[0]} 0
+force {SW[1]} 0
+force {SW[2]} 0
+force {SW[3]} 0
+
+
+run 50 ns
+
+
+

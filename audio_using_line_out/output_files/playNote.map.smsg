@@ -1,0 +1,6 @@
+Warning (10268): Verilog HDL information at playnote.v(325): always construct contains both blocking and non-blocking assignments File: W:/ECE241_LABS/FINAL_PROJECT/audio_using_line_out/playnote.v Line: 325
+Warning (10268): Verilog HDL information at playnote.v(400): always construct contains both blocking and non-blocking assignments File: W:/ECE241_LABS/FINAL_PROJECT/audio_using_line_out/playnote.v Line: 400
+Warning (10268): Verilog HDL information at playnote.v(554): always construct contains both blocking and non-blocking assignments File: W:/ECE241_LABS/FINAL_PROJECT/audio_using_line_out/playnote.v Line: 554
+Info (10281): Verilog HDL Declaration information at playnote.v(145): object "reset" differs only in case from object "RESET" in the same scope File: W:/ECE241_LABS/FINAL_PROJECT/audio_using_line_out/playnote.v Line: 145
+Warning (10268): Verilog HDL information at playnote.v(758): always construct contains both blocking and non-blocking assignments File: W:/ECE241_LABS/FINAL_PROJECT/audio_using_line_out/playnote.v Line: 758
+Info (10281): Verilog HDL Declaration information at playnote.v(673): object "reset" differs only in case from object "RESET" in the same scope File: W:/ECE241_LABS/FINAL_PROJECT/audio_using_line_out/playnote.v Line: 673

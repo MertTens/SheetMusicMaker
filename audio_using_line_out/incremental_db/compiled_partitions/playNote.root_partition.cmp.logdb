@@ -1,0 +1,4 @@
+v1
+GXB_MERGING,PLL Reference Clock Select Block,289255,vga_adapter:VGA|vga_pll:mypll|altpll:altpll_component|altpll_80u:auto_generated|generic_pll1~PLL_REFCLK_SELECT,Audio_Controller:Audio_Controller|Audio_Clock:Audio_Clock|altpll:altpll_component|Audio_Clock_altpll:auto_generated|generic_pll1~PLL_REFCLK_SELECT,
+GXB_MERGING,PLL Reconfiguration Block,289249,vga_adapter:VGA|vga_pll:mypll|altpll:altpll_component|altpll_80u:auto_generated|generic_pll1~PLL_RECONFIG,Audio_Controller:Audio_Controller|Audio_Clock:Audio_Clock|altpll:altpll_component|Audio_Clock_altpll:auto_generated|generic_pll1~PLL_RECONFIG,
+GXB_MERGING,Fractional PLL,288562,vga_adapter:VGA|vga_pll:mypll|altpll:altpll_component|altpll_80u:auto_generated|generic_pll1~FRACTIONAL_PLL,Audio_Controller:Audio_Controller|Audio_Clock:Audio_Clock|altpll:altpll_component|Audio_Clock_altpll:auto_generated|generic_pll1~FRACTIONAL_PLL,
